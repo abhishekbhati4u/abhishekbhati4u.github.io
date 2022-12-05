@@ -34,10 +34,10 @@ After the project scope and prerequisites are gathered, the information gatherin
 
 The first step in the process involves finding a similar sounding domain and purchasing it. For example, if you are performing phishing on *allaboutmobilephones.com* , then a good phishing domain can be *alllaboutmobilephones.com* or *allboutmobilephones.com*. It is a good idea to have the extra or missing or changed characters somewhere in the middle of the phishing domain name and not in the beginning or end. For example, the extra ‘l’ in the first domain name and the missing ‘a’ in the second domain name. This makes it harder for the victim to distinguish between a phishing domain and a normal domain. The domain’s reputation can be checked from multiple sources. The following links can be used to check the reputation of the domain:
 
-* https://postmaster.google.com/
-* https://mxtoolbox.com/blacklists.aspx
-* https://multirbl.valli.org/lookup/
-* https://transparencyreport.google.com/safe-browsing/search?hl=en 
+* [https://postmaster.google.com/](https://postmaster.google.com/)
+* [https://mxtoolbox.com/blacklists.aspx](https://mxtoolbox.com/blacklists.aspx)
+* [https://multirbl.valli.org/lookup/](https://multirbl.valli.org/lookup/)
+* [https://transparencyreport.google.com/safe-browsing/search?hl=en](https://transparencyreport.google.com/safe-browsing/search?hl=en) 
 
 The domain can be registered from GoDaddy or any other service, and then it should be left idle for at least two weeks to increase its reputation. We will cover the process of selecting and setting up the landing page in the infra setup section. Keep this in mind when you discuss the timelines of the project with the client. Also, it is advisable to purchase the domain as soon as possible, preferably after the subdomain enumeration is done, so that you have ample time for the rest of the process. In addition to that, it is advisable to purchase at least two domains for phishing in case one of them gets blacklisted. Domains also get blacklisted frequently during the setup process. Hence, you also need to consider the scenario of things going south.
 
