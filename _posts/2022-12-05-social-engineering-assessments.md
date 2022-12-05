@@ -10,7 +10,7 @@ In this document, we discuss a series of steps and methods that we have learned 
 
 ## THE BEGINNING
 
-We start the phishing assessments by asking the client requirements as a first and foremost process. If this hasn’t been done, we highly suggest **DON’T START ANY ASSESSMENT. DON’T EVEN START PREPARING THE INFRA BEFORE DISCUSSING THE TERMS.**
+We start the phishing assessments by asking the client requirements as a first and foremost process. 
 
 *Pre-requisites and Client Requirements:* 
 
