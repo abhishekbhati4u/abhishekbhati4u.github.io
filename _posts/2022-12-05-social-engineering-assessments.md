@@ -53,7 +53,7 @@ Post deciding all the domains, it is advisable to search for any known phishing 
 
 Post gathering all the information, we start with the infrastructure setup to get started with the entire process. From this point, the activity can fork into two paths, depending on the phishing manner in which you want to complete the assessment. You can take the path of the MiTM server, or you can set up your own landing page from the list of the applications you want to consider that you found in the recon process for the client. It is even possible that the client wants an engagement based on social media. So, in that particular case, it is advisable to use content and infrastructure related to that particular social media to use as the landing page for the social engineering engagement. 
 
-###### Using an MiTM server for Phishing
+### Using an MiTM server for Phishing
 
 MiTM phishing is conducted by making a server sit between the targeted users and the actual website services. The phishing server captures the credentials and the authentication tokens that the users submit. Evilginx is one such server configuration that comes with preconfigured templates for multiple popular websites used in the enterprise and consumer sector alike. This includes websites like Google, O365, Paypal, Citrix, GitHub, Instagram, Facebook, etc.
 
@@ -70,7 +70,7 @@ certbot certonly -d "<DOMAIN>" -d "*.<DOMAIN>" -a manual --preferred-challenges 
 
 Post setting up the Evilginx, you can embed the link to it in your email and send it to the victims for starting the assessment. It is imperative that you continuously monitor the credentials that are being captured by Evilginx during which your assessment is taking place.
 
-###### Using Customized Phishing page
+### Using Customized Phishing page
 
 Although Evilginx is quite a good tool to conduct phishing assessments, many times it is good to conduct phishing assessments for the clients based on customized phishing pages based on the client’s login page.
 So, the process here starts by some recon and finding out applications from the client’s organization with these characteristics:
