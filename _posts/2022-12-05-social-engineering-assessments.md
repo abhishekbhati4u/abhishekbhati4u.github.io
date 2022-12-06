@@ -1,6 +1,6 @@
 # TWO CENTS ON SOCIAL ENGINEERING ASSESSMENTS
 
-Hi, me and my colleague [Vatsal](https://github.com/vatsal-mob) started with Social Engineering assessments almost a year ago and after conducting such assessments for multiple clients now, we thought to share our two cents from what we have learned about social engineering. In particular, we will be covering email based phishing assessments since they are the most common ones.
+Hi, me and my colleague [Vatsal](https://github.com/vatsal-mob) at [WSA](https://wesecureapp.com/) started with Social Engineering assessments almost a year ago and after conducting such assessments for multiple clients now, we thought to share our two cents from what we have learned about social engineering. In particular, we will be covering email based phishing assessments since they are the most common ones.
 
 Social engineering assessments are conducted to assess the organization’s level of resistance and awareness against attacks targeting human weaknesses. We attempt to target users by sending them customized messages that can trick them into sharing credentials or other sensitive information that can then be utilized in order to conduct further attacks against the victim person or organization.
 
