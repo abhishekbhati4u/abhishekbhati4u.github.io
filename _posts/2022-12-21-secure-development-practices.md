@@ -9,9 +9,10 @@ Here are some points for a good password policy:
 - You should not use any password from at least 5 of your last used passwords while changing your password.
 - The password should not contain part of the username, real name of the user, their commonly known personal details like DOB or phone number, company name, or any word spelled completely.
 - Do not use default credentials for any services, including third party services. Even if you are using software from a third party vendor, ensure that you get it changed from them, if the option for the same is not available on your end. Many times, passwords for third party software that is not available in documentation is available on the forums being used by developers for community help in debugging.
+
 Besides implementing a strong password policy, an organization should also mandate changing the password compulsorily after a fixed period of time like 3 months or less and after any suspicious event or attempt of a cyberattack. Also, a proper alert system should be in place giving users an alert whenever their password is changed. This can help in minimizing the damage if a user’s credentials are compromised.
 
-Don’t use Hard-coded credentials in Application Source Code
+## Don’t use Hard-coded credentials in Application Source Code
 It is recommended not to use credentials in plaintext for authentication to various services or API calls while writing the code of the application. There are multiple ways in which application source codes are often accessed by attackers. However, the possibility of exploiting the services is greatly minimized if the attacker doesn’t have the proper credentials. It increases the effort, time and resources required by the attacker for a successful exploitation and at the same time, gives the organizations a bigger window of opportunity to identify and take preventive measures as part of the responsive practices. Ensure that you don’t store passwords of the users in plaintext format in any database, and store them using a strong hashing algorithm.
 
 ##	Keep the Public Code Repositories of Your Project In check
