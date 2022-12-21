@@ -4,11 +4,11 @@ With the growing amount of cyberthreats and a world that is moving online at an 
 ## Choose and Manage Your Passwords Very, Very Carefully
 You might think, _“Well, this is a very common thing. Everyone keeps their password secure.”_ and yet, this is one of the most common reasons for multiple large scale cyberattacks. The systems of a vast number of companies have been breached due to weak password policies. **Company-name@123** has been one of the most common passwords being used by developers for even sensitive access to assets like VPN connection, development environments and many more.
 Here are some points for a good password policy:
-  - It is mandatory to use a good combination of Uppercase and Lowercase letters, special symbols, and numbers in your password.
-  - Your password should be at least 8 characters long at the bare minimum and preferably, it should be more than 16 characters long.
-  - You should not use any password from at least 5 of your last used passwords while changing your password.
-  - The password should not contain part of the username, real name of the user, their commonly known personal details like DOB or phone number, company name, or any word spelled completely.
-  - Do not use default credentials for any services, including third party services. Even if you are using software from a third party vendor, ensure that you get it changed from them, if the option for the same is not available on your end. Many times, passwords for third party software that is not available in documentation is available on the forums being used by developers for community help in debugging.
+- It is mandatory to use a good combination of Uppercase and Lowercase letters, special symbols, and numbers in your password.
+- Your password should be at least 8 characters long at the bare minimum and preferably, it should be more than 16 characters long.
+- You should not use any password from at least 5 of your last used passwords while changing your password.
+- The password should not contain part of the username, real name of the user, their commonly known personal details like DOB or phone number, company name, or any word spelled completely.
+- Do not use default credentials for any services, including third party services. Even if you are using software from a third party vendor, ensure that you get it changed from them, if the option for the same is not available on your end. Many times, passwords for third party software that is not available in documentation is available on the forums being used by developers for community help in debugging.
 Besides implementing a strong password policy, an organization should also mandate changing the password compulsorily after a fixed period of time like 3 months or less and after any suspicious event or attempt of a cyberattack. Also, a proper alert system should be in place giving users an alert whenever their password is changed. This can help in minimizing the damage if a user’s credentials are compromised.
 
 ##	Don’t use Hard-coded credentials in Application Source Code
