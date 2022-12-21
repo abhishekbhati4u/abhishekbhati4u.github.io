@@ -1,4 +1,4 @@
-# Some Practices to Make Software Development more Secure
+# Some Practices to Make Software Development More Secure
 
 With the growing amount of cyberthreats and a world that is moving online at an exponential rate, the times are necessitating developers to follow the best cybersecurity practices. It is not a secondary thing anymore, but a critical part of the Software Development Cycle that needs to be followed habitually. A cyberbreach can cause an organization millions of dollars on average. The additional costs of reputational damage increase this amount further. Most of the time, it has been observed that cyberattacks can be prevented or at least the damage from them can be minimized if some simple practices are adopted by all the stakeholders involved. So, here are some easy to follow guidelines to make your projects more secure on the internet.
 ### Choose and Manage Your Passwords Very, Very Carefully
