@@ -25,9 +25,7 @@ Now, with these distinctions, the question arises as to how to manage security i
 
 One of the greatest managers of all time, Michael Scott (Regional Manager, Scranton Branch) of the Dunder Mifflin Paper Company, Inc. once said in his depressed moments,
 
-<div align="center">
 ![MichaelScottResponsibility](https://cdn.quotesgram.com/img/19/48/589920233-lol-michael-scott-quotes-the-office-Favim_com-812827.jpg)
-</div>
 
 
 But understanding that this was during one of his worst moments and gaining wisdom from that, it is imperative that during any incident, rather than starting a war with iron fists, the first step that any service provider and consumer should take is to analyse the incident. A collaboration between our internal security team and the vendor can help to minimise the damage in case of any breaches. For that, a certain degree of transparency is required. Better get that in the purchase agreement of the services itself. Additionally, if the internal security team also finds some issue in the products that they are using they can report it to the vendor as there might be many, many use cases which are uncovered only during actual use.
