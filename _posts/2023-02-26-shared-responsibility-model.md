@@ -24,7 +24,10 @@ Also, if we are the Richie Rich that we assumed to be for the narrative, then ou
 Now, with these distinctions, the question arises as to how to manage security in such a state. Well, the first thing to do is to remove the distinction that this is a mutually exclusive game. (Now you can leave the though that I told you to hold on to earlier). It's not a gladiator combat arena for security teams, but rather a space for collaboration. The vendors are responsible for making sure that they are following the security measures during the development of their product, along with the communication of the security hardening guidelines to the customers (i.e., us). Our internal security team is responsible for the implementation of the guidelines and ensuring that the relevant detection mechanisms as an additional layer of defence are also in place.
 
 One of the greatest managers of all time, Michael Scott (Regional Manager, Scranton Branch) of the Dunder Mifflin Paper Company, Inc. once said in his depressed moments,
+
+<center>
 ![MichaelScottResponsibility](https://cdn.quotesgram.com/img/19/48/589920233-lol-michael-scott-quotes-the-office-Favim_com-812827.jpg)
+</center>
 
 But understanding that this was during one of his worst moments and gaining wisdom from that, it is imperative that during any incident, rather than starting a war with iron fists, the first step that any service provider and consumer should take is to analyse the incident. A collaboration between our internal security team and the vendor can help to minimise the damage in case of any breaches. For that, a certain degree of transparency is required. Better get that in the purchase agreement of the services itself. Additionally, if the internal security team also finds some issue in the products that they are using they can report it to the vendor as there might be many, many use cases which are uncovered only during actual use.
 
