@@ -33,7 +33,7 @@ After this, we move on to our next step in the process which includes attack sur
 ## Attack Surface Discovery
 Attack Surface Discovery relates to the process in which we try to enumerate the major assets from the internet that are related to or owned by the organization. This can include the following:
 
-+ **ASN Enumeration**
+###ASN Enumeration
   + ASN stands for Autonomous System Numbers (ASNs) and they are groups of one or more IP prefixes run by one or more network operators that maintain a single, clearly defined routing policy.
   + The enumeration of the ASNs can give you information related to the Internet Service Providers being used by the company. It can help you to enumerate other services being used by the company as well. You can check if that particular ISP provides complementary network or software services as well and if they do, are those services being used by the target organization.
   + A useful tool for ASN lookup is [HackerTarget](https://hackertarget.com/as-ip-lookup/).
@@ -41,7 +41,7 @@ Attack Surface Discovery relates to the process in which we try to enumerate the
   + You can also use [ASN lookup tool](https://github.com/yassineaboukir/Asnlookup)
 
 
-+ **DNS Records Enumeration**
+###DNS Records Enumeration**
   + A lot of information can also be gathered by enumerating the associated DNS records for the target organization. The DNS records can be utilized to identify the correlation between the cloud services and the various associated CDNs as well.
   + One of the most popular and useful tools for DNS enumeration is the [AMASS project](https://github.com/owasp-amass/amass) from OWASP. It uses multiple sources and techniques to gather information related to the DNS records of the target organization. These include APIs, certificates, bruteforcing, Routing, Scraping, web archives, and WHOIS records.
   + Additionally, you can use bruteforcing and directory listing tools like [Gobuster](https://github.com/OJ/gobuster), [dirb](https://salsa.debian.org/pkg-security-team/dirb) or [dirbuster](https://gitlab.com/kalilinux/packages/dirbuster) to enumerate DNS records with some wordlists like from the [seclists](https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS).
@@ -51,7 +51,7 @@ Attack Surface Discovery relates to the process in which we try to enumerate the
   + A blog link regarding the dig command: [https://www.hostinger.in/tutorials/how-to-use-the-dig-command-in-linux/](https://www.hostinger.in/tutorials/how-to-use-the-dig-command-in-linux/)
 
 
-+ **Domains and Subdomains Enumeration**
+####Domains and Subdomains Enumeration
   + In this step, we try to find out about the domains that are alive using the DNS information and the TLS Certificates.
   + For this, first we need to identify all the parent domains belonging to that organization. There is no complete sure shot way of finding all the domains other than internet searches and finding out more and more about the domains from the information gathered during the entire recon process. Hence, it should be done iteratively by listing, verifying, enumerating and then again listing new domains that we find. For example, you might try to search for new certificates during the dorking process mentioned in the later sections and at that time, you might come across some new domains. So, you will need to again list them down, verify their ownership whether they belong to your organization or not and then enumerate them.
   + A useful tool for this step is the [subfinder](https://github.com/projectdiscovery/subfinder).
@@ -68,7 +68,7 @@ Attack Surface Discovery relates to the process in which we try to enumerate the
   + The listed IP addresses can be further utilized in the Network Security Phase of the activity.
 
 
-+ **Domains Ownership Validation**
+###Domains Ownership Validation**
   + In this step, we try to verify whether the domains and the subdomains reported by the tool actually belong to our target organization or not.
   + We use the whois lookup to conclude this information and check for relatable logos or copyright information on that domain.
   + A useful tool for this activity is [GoDaddy WhoIs Lookup](https://in.godaddy.com/whois).
@@ -145,6 +145,7 @@ After this, if you really want to do a deep dive in the Amazon S3 buckets securi
     + [GitLeaks](https://github.com/zricethezav/gitleaks)
     + [GitDorker](https://github.com/obheda12/GitDorker)
     + GitHub dorking can very often give interesting results. So, it is advisable to manually verify all the findings from this phase.
+
 
 + **Dorking**
   + Google dorking and searching for information on the pastebin sites can help us to get a wide variety of information related to the target company.
