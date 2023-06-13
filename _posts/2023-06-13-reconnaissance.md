@@ -1,6 +1,6 @@
 # Reconnaissance - The Art of Looking for Secrets in Plain Sight 🔍🕵️
 
-![Sherlock](/_posts/sherlock.jpg)
+![Sherlock](https://iadsb.tmgrup.com.tr/792dea/0/0/0/0/1582/966?u=https://idsb.tmgrup.com.tr/2018/07/27/sultan-meets-sherlock-holmes-abdulhamid-iis-passion-for-mystery-1532714903065.jpg)
 
 Reconnaissance is a very important activity in the realm of cybersecurity. It is the first stage in the five phases of ethical hacking and provides extremely valuable input for the several other activities that are undertaken in any cybersecurity assessment. The scope of the activity can be defined in a limited number of objectives or it can be taken extensively. One of the key things to note is that the activity of reconnaissance is never absolute in its scope and can also turn into a rabbit hole and can go on forever as well. There will always be something more to find, some more technique to try, some more tools that can give a few more results. It is upon the analysts to call a stop on the process when they feel that they have enough data in accordance with their objectives. And that requires a set of processes and a defined methodology to complete the activity in due time. In this blog, I present one such methodology with a list of tools that I learnt over the course of multiple reconnaissance activities and red teaming exercises. Also, for the sake of glamor, let’s call the organization for which we are doing the reconnaissance as the target organization.
 
