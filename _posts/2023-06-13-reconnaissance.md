@@ -40,6 +40,7 @@ Attack Surface Discovery relates to the process in which we try to enumerate the
   + It can also be used to identify the subnets and the CIDR ranges.
   + You can also use [ASN lookup tool](https://github.com/yassineaboukir/Asnlookup)
 
+
 + **DNS Records Enumeration**
   + A lot of information can also be gathered by enumerating the associated DNS records for the target organization. The DNS records can be utilized to identify the correlation between the cloud services and the various associated CDNs as well.
   + One of the most popular and useful tools for DNS enumeration is the [AMASS project](https://github.com/owasp-amass/amass) from OWASP. It uses multiple sources and techniques to gather information related to the DNS records of the target organization. These include APIs, certificates, bruteforcing, Routing, Scraping, web archives, and WHOIS records.
@@ -48,6 +49,7 @@ Attack Surface Discovery relates to the process in which we try to enumerate the
   + A useful command for this activity is dig. A sample dig command to find the A records for is as follows:
     ```dig companyname.com A```
   + A blog link regarding the dig command: [https://www.hostinger.in/tutorials/how-to-use-the-dig-command-in-linux/](https://www.hostinger.in/tutorials/how-to-use-the-dig-command-in-linux/)
+
 
 + **Domains and Subdomains Enumeration**
   + In this step, we try to find out about the domains that are alive using the DNS information and the TLS Certificates.
@@ -64,6 +66,7 @@ Attack Surface Discovery relates to the process in which we try to enumerate the
   + A command to find the IP addresses of the listed subdomains from the above process is:
     ```host -t a subdomain.com```
   + The listed IP addresses can be further utilized in the Network Security Phase of the activity.
+
 
 + **Domains Ownership Validation**
   + In this step, we try to verify whether the domains and the subdomains reported by the tool actually belong to our target organization or not.
@@ -94,6 +97,7 @@ Attack Surface Discovery relates to the process in which we try to enumerate the
   + One more go based tool for website screenshots is the [gowitness](https://github.com/sensepost/gowitness).
   + After you have identified the applications and subdomains, it is a good idea to enumerate older endpoints from the subdomains. One of the most useful tools for this is the [waybackurls](https://github.com/tomnomnom/waybackurls). It will help to list down the older endpoints of the subdomains and applications that existed before.
   + After all the endpoints have been identified, these URLs can be fed to a secret finding tool like [JSFScan](https://github.com/KathanP19/JSFScan.sh) to find secret keys or other sensitive values from all the application code that can be enumerated.
+
 
 + **Mobile Applications Enumeration**'
   + Further, mobile applications are enumerated for the target organization using the Apple AppStore and the Google Play Store. Depending on the type of organization, you might need to look for the applications in other application distribution platforms as well.
@@ -134,11 +138,14 @@ After this, if you really want to do a deep dive in the Amazon S3 buckets securi
 + Many times, a lot of sensitive information can be leaked through public sources as well and they are just there for the taking for anyone willing to look closely enough.
 + Several tools are available for identifying leaked credentials, personally identifiable information, application configuration details and other relevant information.
 + One of the best resources for completing this phase of information gathering is GitHub.
+
+
 + **GitHub Dorking**
   + Some good tools for GitHub recon are as follows:
     + [GitLeaks](https://github.com/zricethezav/gitleaks)
     + [GitDorker](https://github.com/obheda12/GitDorker)
     + GitHub dorking can very often give interesting results. So, it is advisable to manually verify all the findings from this phase.
+
 + **Dorking**
   + Google dorking and searching for information on the pastebin sites can help us to get a wide variety of information related to the target company.
   + Some good tools for Google Dorking are:
