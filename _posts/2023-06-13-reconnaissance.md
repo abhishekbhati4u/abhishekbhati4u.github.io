@@ -58,12 +58,14 @@ Attack Surface Discovery relates to the process in which we try to enumerate the
   + Make sure that the API keys are stored in the **provider-config.yaml**
   + Here is a useful [blog link](https://dhiyaneshgeek.github.io/bug/bounty/2020/02/06/recon-with-me/) for the tool usage.
   + A sample command for the same is as follows:
+    
     ```subfinder -d companyname.com -o companydomains.txt```
   + Another useful tool for finding the subdomains is [assetfinder](https://github.com/tomnomnom/assetfinder). It is a fast go based tool.
   + You can also try to find out the [Sublist3r](https://github.com/aboul3la/Sublist3r) for subdomain enumeration.
   + After all the output from all these tools, you can create an extensive and unique list of subdomains belonging to that organization. This can then help you in the further steps of the process that include finding the IP Addresses, the web applications and more information about the third party services and softwares being used by the organization.
   + [Nuclei](https://github.com/projectdiscovery/nuclei) is also a very highly useful tool to find out information related to the subdomains and the possibility of vulnerabilities on them.
   + A command to find the IP addresses of the listed subdomains from the above process is:
+    
     ```host -t a subdomain.com```
   + The listed IP addresses can be further utilized in the Network Security Phase of the activity.
 
@@ -167,6 +169,7 @@ Another useful tool to find out about the credentials exposed on the dark web is
 
 Note: A lot of the processes mentioned above can be automated using bash. 
 A useful CLI command to run the tools on all the domains at once:
+
 `cat <domain/ip-list-file> | xargs -I % sh -c '<tool-to-be-run> %'`
 A reference link for the same for the usage of the tool is: [https://explainshell.com/explain?cmd=xargs+-I+%25+sh+-c+%22ping+%25%22](https://explainshell.com/explain?cmd=xargs+-I+%25+sh+-c+%22ping+%25%22)
 
