@@ -76,6 +76,7 @@ Now, since we have now discussed the gloom and doom, we should also discuss some
 There are some other instances of security that are associated with the AI Chatbots like hacking using the Prompts but that is a topic for another article.
 
 Article Reference: [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/pdf/2211.03622.pdf)
+
 Authors: Neil Perry, Megha Srivastava, Deepak Kumar, Dan Boneh
 
 For now, this wraps up this article.
