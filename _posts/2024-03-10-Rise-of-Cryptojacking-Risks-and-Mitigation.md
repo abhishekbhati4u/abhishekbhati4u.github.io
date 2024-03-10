@@ -1,4 +1,4 @@
-# Rise of Cryptojacking Risks & Mitigation
+# Rise of Cryptojacking Risks and Mitigation
 
 ![Cryptojacking](https://www.kaspersky.com/content/en-global/images/repository/isc/2021/what_is_cryptojacking_image1_710x400px_300dpi.jpg)
 
