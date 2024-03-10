@@ -4,7 +4,7 @@
 
 Hi, Namaste, Hello, Hola, Kon’nichiwa 😄
 
-Cryptocurrencies have been phenomenal. Aside from the computer science marvel that they are, they are also the creator and also the destroyer of generational fortunes. And most recently, the market has gone gaga over Bitcoin touching $70000. It is all sunshine and rainbows, but like the pirates that tail the merchant ships returning from a gold rush, it has given rise to some new kind of exploitation methods known as **cryptojacking**.
+Cryptocurrencies have been phenomenal. Aside from the computer science marvel that they are, they are also the creator and the destroyer of generational fortunes. And most recently, the market has gone gaga over Bitcoin touching $70000. It is all sunshine and rainbows, but like the pirates that tail the merchant ships returning from a gold rush, it has given rise to some new kind of exploitation methods known as **cryptojacking**.
 
 According to the [DLNews Article](https://www.dlnews.com/articles/defi/cryptojacking-surges-as-bitcoin-hits-record-high/), crypto jacking surged by 659% in 2023 compared to 2022 and cybercriminals netted about $1.7billion from Cryptoheists in 2023. This number can surely be expected to go up with the new rally in Bitcoin.
 
