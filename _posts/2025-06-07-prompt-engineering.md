@@ -94,18 +94,18 @@ Jerry escapes cleverly.”`
 #### Interactive Prompting
 Now let’s say you have the storyline, and you want to present this story in front of an audience. Now, in this scenario, you may want to know which questions may be asked about it. In that scenario. You can ask a follow-up prompt and have a **dialogue** about the story, asking the model which is behaving as a listener. At that time, you will be using Interactive Prompting. An example for the same is as follows:
 
-…
+_**…
 Story generated.
-…
+…**_
 
 `“You are a member of audience to whom I am narrating the story from the last prompt. Ask me questions based on the story.”`
 
 #### Template Prompting
 Now suppose the model generates the question, but its very limited and you are not able to reply consistently. You want the questions to be posted on a blog along with answers and in a particular format. In that scenario, you can share a **template** for the answers and ask the model to generate relevant answers as a follow up to the questions that the model generated. This technique will then be called template prompting. An example for it can be:
 
-…
+_**…
 Questions Generated
-…
+…**_
 
 `“Please share the answers for the above questions and create a table describing the following components for the answer:
 Why? Reason for this Particular Answer | Relevance from Storyline | Alternative Explanations”`
@@ -113,28 +113,29 @@ Why? Reason for this Particular Answer | Relevance from Storyline | Alternative 
 #### Multi Turn Prompting
 You have the story, but you want to know more about why the story was generated in that way. Let’s say the model generates the storyline in which Jerry hides under a cup while Tom keeps looking for him. You can ask **follow-up questions** about it. That makes the technique as Multi-Turn Prompting. For example,
 
-…
+**_…
 Story Generated
-…
+…_**
 
-`Prompt 1: “Why did Jerry hide only under the cup for escaping?”
-Prompt 2: “Why didn’t Tom look under the cup?”`
+`Prompt 1: “Why did Jerry hide only under the cup for escaping?”`
+
+`Prompt 2: “Why didn’t Tom look under the cup?”`
 
 #### Self Consistency Prompting
 Let’s say you have the story, the answers to your follow ups but you want to be a bit more creative. You want to explore options. In that scenario, you can ask the model to generate the story in **multiple ways** (like different ways for Jerry’s escape) but at the same time, you want the model to be consistent with itself. In that scenario, you can use a technique called as self-consistent prompting. An example of this technique is as follows:
 
-…
+_**…
 Story Generated
-…
+…**_
 
 `“List down five alternate ways that Jerry can use to escape from Tom, then explain which one will be the best considering the creativity of the story.”`
 
 #### Hypothetical Prompting
 Now, you have the story, you have answers, and you have also evaluated possible alternatives. However, you still want to test your creativity as well. In that case, you can generate ask the model to generate the story based on hypothetical situations as well. For that, you can use **“What if” or other speculative scenario phrases**. This is called Hypothetical Prompting:
 
-…
+_**…
 Story Generated
-…
+…**_
 
 `“What if Jerry was ill, unable to run and couldn’t find a good place to hide? Write a story for a clever Jerry escapes after being caught by Tom.”`
 
@@ -159,25 +160,25 @@ At the end, for me, the response from the ChatGPT for the above prompt was as fo
 Certainly. Below is a formal and technically oriented summary that includes ten key benefits of implementing Shift Left Security practices, written from the perspective of an Engineering Manager addressing early-career developers. The section is followed by a concise analysis of the risks associated with not adopting such practices.
 
 🔐 Top 10 Benefits of Shift Left Security Practices
-+ **1. Early Detection of Vulnerabilities**
+1. **Early Detection of Vulnerabilities**
 By integrating security checks in the initial phases of development—such as during code writing and unit testing—security flaws are identified sooner. This reduces the risk of major vulnerabilities propagating into production environments.
-+ **2. Reduction in Remediation Costs**
+2. **Reduction in Remediation Costs**
 Fixing security defects early in the SDLC is significantly less expensive than post-deployment remediation. Integrating static analysis, dependency scanning, and policy enforcement tools during coding can avoid expensive downstream fixes.
-+ **3. Enhanced Code Quality**
+3. **Enhanced Code Quality**
 Embedding security concerns in the development phase enforces better coding standards. Secure coding practices often overlap with robust software engineering practices, leading to overall higher code quality and maintainability.
-+ **4. Faster Development Cycles**
+4. **Faster Development Cycles**
 Proactively addressing security concerns minimizes the number of rework cycles needed later. This results in more predictable and streamlined development timelines without last-minute delays due to security bottlenecks.
-+ **5. Improved Developer Autonomy**
+5. **Improved Developer Autonomy**
 Providing developers with tools and training to address security issues early empowers them to resolve common vulnerabilities without always relying on specialized security teams, fostering independence and ownership.
-+ **6. Secure Integration of Third-party Components**
+6. **Secure Integration of Third-party Components**
 When security scanning is built into dependency management and CI/CD pipelines, vulnerabilities introduced via third-party libraries or APIs can be detected and mitigated at the point of integration.
-+ **7. Reduced Compliance and Audit Risk**
+7. **Reduced Compliance and Audit Risk**
 Automated enforcement of secure development policies aids in meeting industry and regulatory compliance standards (e.g., ISO 27001, SOC 2, GDPR). This reduces exposure during audits and simplifies reporting.
-+ **8. Continuous Feedback and Learning**
+8. **Continuous Feedback and Learning**
 Developers receive real-time security feedback through tools such as static application security testing (SAST), which facilitates continuous learning and adaptation of secure coding practices.
-+ **9. Stronger DevSecOps Alignment**
+9. **Stronger DevSecOps Alignment**
 Shift Left principles inherently align development, security, and operations teams. This fosters better collaboration, shared responsibility, and unified security ownership across the SDLC.
-+ **10. Competitive Advantage and Customer Trust**
+10. **Competitive Advantage and Customer Trust**
 Delivering secure products builds customer trust and enhances brand reputation. Early integration of security reduces the risk of breaches, downtime, and data loss—key factors in retaining client confidence.
 
 📉 Risks of Not Implementing Shift Left Security Practices
