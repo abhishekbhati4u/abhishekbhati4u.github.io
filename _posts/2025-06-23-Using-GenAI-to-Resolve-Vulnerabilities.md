@@ -59,6 +59,10 @@ Again, let’s assume Tom is asking for recommendations to fix a vulnerability i
 
 
 
-For now, this wraps up this small article. Will keep updating this blog with more tips.
+For now, this wraps up this small article. 
+
+Will keep updating this blog with more tips.
+
 Suggestions are welcome.
+
 Happy & Secure Development.
